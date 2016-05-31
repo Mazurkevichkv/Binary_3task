@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link href="css/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+	
+</head>
+<body>
+     <main>
+	 <menu>
+     <section id="allUserId"> 
+		 <input  class="form-control" id="userId" type="text"></input>
+		 <button  class="btn btn-success">User id</button>
+		 <h5 class="bg-success">You can add new article to chosen user</h5>
+	 </section>
+
+	 <section id="articleField">
+		 <input  class="form-control" id="title" type="text" placeholder="title"/>
+		 <textarea class="form-control" id="text" type="text" placeholder="text"></textarea>
+		 <button  class="btn btn-primary">Add</button>
+	 </section>
+	 </menu>
+
+	 <ul id="articles"></ul>
+	 
+	 </main>
+	 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	 <script src="js/restApi.js"></script>
+</body>
+</html>

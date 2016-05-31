@@ -1,0 +1,52 @@
+main
+{
+	font-family: 'open sans';
+	padding-top:30px;
+}
+#articles
+{
+	width:70%;
+	float:right;
+	margin-right:5%;
+}
+#allUserId input, button, textarea
+{
+	width:100%;
+	display:block;
+}
+.btn-danger
+{
+   width: 40px;
+   margin-right:10px;
+}
+.btn-default {width: 100px; }
+button { outline: none!important;}
+h5
+{
+	margin-top:10px;
+	padding:10px!important;
+	color: grey!important;
+}
+menu
+{
+	width:23%;
+	float:left;	
+}
+ul { list-style-type:none; }
+li { margin-bottom:10px; }
+li span
+{
+	color: grey;
+	font-weight: bold;
+}
+li h3 { color: #380B61; }
+#allUserId input
+{
+	width:50%;
+	float:left;
+}
+#allUserId button
+{
+	width:50%;
+	float:right;
+}
